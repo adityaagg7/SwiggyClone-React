@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "swiggyclonereact",
+  "description": "",
+  "version": "1.0.0",
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "rm -rf .parcel-cache && parcel html/index.html",
+    "build": "parcel build html/index.html --public-url ./",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityaagg7/SwiggyClone-React.git"
+  },
+  "author": "tida1732",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityaagg7/SwiggyClone-React/issues"
+  },
+  "homepage": "https://github.com/adityaagg7/SwiggyClone-React#readme"
+}
